@@ -1,0 +1,141 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    width: 80%;
+    max-width: 960px;
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: #0e346e;
+    color: #fff;
+    padding: 40px 30px;
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile h2 {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: normal;
+    color: #d3f0e0;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    border-bottom: 2px solid #d3f0e0;
+    padding-bottom: 5px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.main-content {
+    padding: 40px;
+    width: 65%;
+    box-sizing: border-box;
+}
+
+.main-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #0e346e;
+    padding-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1em;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.experience article {
+    margin-bottom: 30px;
+}
+
+.experience h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience p strong {
+    font-weight: bold;
+    color: #0e346e;
+}
+
+.experience ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.experience li {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.profile img {
+    background-color: #d3f0e0;
+}
